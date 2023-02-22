@@ -2,29 +2,14 @@
 tiiitle: "MyPortfolio"
 author: "Jan Hengeveld"
 date: "2023-02-22"
-output: html_document
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## R Markdown
-
-This iis an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# Computational-Musicology
+## Project for analysing and comparing music playlists on Spotify, specifically searching for difference in 'calming/relaxing music' for humans and for dogs 
+## Portfolio
+### Introduction to analysis of music, aimed at relaxation
+#### I intent to analyse playlists on Spotify which are named either 'calming' or 'relaxing' or 'relaxation' and group them twofold or threefold: 1 group general and 1 group aimed at dogs. Possibly also a third group for dogs where scientific research (into which exactc music elements are relevant for calming dogs) may have been been applied. The corpus can be made from songs on many playlists that exist for those groups. It is my working hypothesis that the first two groups are hardly different and that a high level of antropomorphism is applicable => what humans define and perceive as relaxing will be true for dogs also. Potentially a third group, well defined on scientific research, may show significant differences on a variety of elements. It might also be that 'true' calming music for dogs is based on elements that disqualify for humans as true music (i.e. pitches in sounds at frequency levels unhearable for humans but hearable for dogs. 
+** Research has been done into calming/relaxing effects of music, both for humans as for dogs. For the first group, humans, we know much more given a higher quality level of feedback. For dogs, research shows that similar aspects apply as for humans (tempo, loudness, pitch, instruments) but also differences (variety, genre, 'nature'sounds).
+At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
