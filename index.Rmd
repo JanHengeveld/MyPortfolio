@@ -50,7 +50,7 @@ I based my third group , called "Through a Dogs Ear, science-based supposedly. u
 At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
 
 test
-### A global analysis of 3 relaxation playlists: humans, dogs and science dogs
+### A global analysis of 4 relaxation playlists: humans, dogs, 'sciencehumans' and sciencedogs'
 #### bla bla bla
 
 ```{r, setup}
