@@ -1,5 +1,5 @@
 ---
-title: "MyPortfolio"
+title: "My Portfolio for Computational Musicology"
 author: "Jan Hengeveld"
 date: "2023-02-22"
 output: 
