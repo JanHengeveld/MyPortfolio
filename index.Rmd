@@ -24,14 +24,15 @@ A project in my third year of doing a Bachelors Study in Musicology at the Unive
 
 
 ***
-wefwefdwefqwdfqef
+https://open.spotify.com/playlist/3B0FtfxNiFOo82o8lmJcIp?si=76769a4a14014af1
+
 ## Project for analysing and comparing music on Spotify, specifically searching for similarities and/or differences in 'calming/relaxing music' for humans and for dogs 
 ## Portfolio
  
 ### Introduction to analysis of music, aimed at relaxations
 
 #### For this project I have analysed playlists on Spotify which are named either 'calming' or 'relaxing' or 'relaxation' and group them (eventually after some further research) fourfold: 
-1. general polaylist for humans, 
+1. general playlist for humans, 
 2. general playlist for dogs
 3. specific playlist for humans, based upon research
 4. specific playlist for dogs, based upon research
