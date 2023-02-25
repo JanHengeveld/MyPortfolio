@@ -17,7 +17,7 @@ library(compmus)
 
 ### Computational-Musicology
 
-A project in my third year of doing a Bachelors Study in Musicology at the University of Amsterdam with a specialization into Music Cognition
+A project in my third year of doing a Bachelors Study in Musicology at the University of Amsterdam with a specialization into Music Cognition. Project for analysing and comparing music playlists on Spotify, specifically searching for difference in 'calming/relaxing music' for humans and for dogs
 
 
 ![](Home>MyPortfolio/dog-jamming-out-to-music(1).jpg)
