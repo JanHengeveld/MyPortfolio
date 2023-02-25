@@ -21,7 +21,7 @@ A project in my third year of doing a Bachelors Study in Musicology at the Unive
 
 #### The playlists used in Spotify:
 
-#### [](https://open.spotify.com/playlist/3B0FtfxNiFOo82o8lmJcIp?si=76769a4a14014af1)
+#### [Spotify playlist humans](https://open.spotify.com/playlist/3B0FtfxNiFOo82o8lmJcIp?si=76769a4a14014af1)
 
 ## Project for analysing and comparing music on Spotify, specifically searching for similarities and/or differences in 'calming/relaxing music' for humans and for dogs 
 ## Portfolio
