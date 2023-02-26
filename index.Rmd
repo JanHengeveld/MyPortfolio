@@ -1,5 +1,5 @@
 ---
-title: "My Portfolio for Computational Musicologi"
+title: "My Portfolio for Computational Musicology"
 author: "Jan Hengeveld"
 date: "2023-02-25"
 output: 
@@ -18,14 +18,21 @@ library(compmus)
 A project in my third year of doing a Bachelors Study in Musicology at the University of Amsterdam with a specialization into Music Cognition. Project for analysing and comparing music playlists on Spotify, specifically searching for difference in 'calming/relaxing music' for humans and for dogs
 
 
-![](Home>MyPortfolio/dog-jamming-out-to-music(1).jpg)
-
 
 ***
 
 #### The playlists used in Spotify:
 
-#### [Spotify playlist humans](https://open.spotify.com/playlist/3B0FtfxNiFOo82o8lmJcIp?si=76769a4a14014af1)
+#### [Spotify playlist humans]
+
+<iframe src="https://open.spotify.com/embed/playlist/3B0FtfxNiFOo82o8lmJcIp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+#### [Spotify playlist dogs]
+
+#### [Spotify playlist humans scientific]
+
+#### [Spotify playlist dogs scientific]
+
 
 ## Project for analysing and comparing music on Spotify, specifically searching for similarities and/or differences in 'calming/relaxing music' for humans and for dogs 
 ## Portfolio
@@ -57,7 +64,7 @@ test
 
 
 
-### Further analysise
+### Further analysis
 
 #### I selected the song "Totally beached" from the third group (Dogs, science-based) for a further analysis because it has a strong Regae 'vibe' to it and other research on the effect of music on calming dogs found that Regae music was preferred by dogs (reference to article) 
 
