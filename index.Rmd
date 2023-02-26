@@ -8,6 +8,13 @@ output:
 
 ---
 
+```{r, setup}
+library(tidyverse)
+library(plotly)
+library(spotifyr)
+library(compmus)
+```
+
 
 ### Computational-Musicology
 
