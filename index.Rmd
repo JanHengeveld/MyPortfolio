@@ -1,5 +1,5 @@
 ---
-title: "My Portfolio for Computational Musicology"
+title: "My Portfolio for Computational Musicologi"
 author: "Jan Hengeveld"
 date: "2023-02-25"
 output: 
@@ -69,7 +69,7 @@ test
 
 
 
-### Further analysis
+### Further analysise
 
 #### I selected the song "Totally beached" from the third group (Dogs, science-based) for a further analysis because it has a strong Regae 'vibe' to it and other research on the effect of music on calming dogs found that Regae music was preferred by dogs (reference to article) 
 
