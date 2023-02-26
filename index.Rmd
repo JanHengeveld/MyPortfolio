@@ -7,15 +7,12 @@ output:
     storyboard: true
 
 ---
-
 ```{r, setup}
 library(tidyverse)
 library(plotly)
 library(spotifyr)
 library(compmus)
 ```
-
-
 ### Computational-Musicology
 
 A project in my third year of doing a Bachelors Study in Musicology at the University of Amsterdam with a specialization into Music Cognition. Project for analysing and comparing music playlists on Spotify, specifically searching for difference in 'calming/relaxing music' for humans and for dogs
@@ -57,15 +54,6 @@ At this stage I haven't identified nor selected specific tracks for each of thes
 test
 ### A global analysis of 4 relaxation playlists: humans, dogs, 'sciencehumans' and sciencedogs'
 #### bla bla bla
-
-```{r, setup}
-
- test5 |>
-    ggplot(aes(x = energy)) +
-    geom_histogram(binwidth = 0.1) +
-    facet_wrap(~category)
-
-```
 
 
 
