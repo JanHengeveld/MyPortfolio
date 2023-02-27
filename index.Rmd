@@ -5,97 +5,105 @@ date: "2023-02-25"
 output: 
   flexdashboard::flex_dashboard:
     storyboard: true
-    self_contained: false
-
 ---
+
 ```{r, setup}
 library(tidyverse)
 library(plotly)
 library(spotifyr)
 library(compmus)
 ```
+
 ### Computational-Musicology
 
-A project in my third year of doing a Bachelors Study in Musicology at the University of Amsterdam (with a specialization into Music Cognition). 
+This website describes a project in my third year of doing a Bachelors study Musicology at the University of Amsterdam (with a specialization in Music Cognition).
 
-My project has initially aimed to search for music playlists on Spotify with keywords 'relax', 'relaxation' or 'calming'. Not only for humans but also specifically for dogs. There is a large quantity of music (artists, albums, playlists) available on Spotify with those keywords, also for dogs (and cats, jointly our most favorite pets to live with us, human beings). 
+My project has initially aimed to search for music playlists on Spotify with keywords 'relax', 'relaxation' or 'calming'. Not only for humans but also specifically for dogs. There is a large quantity of music (artists, albums, playlists) available on Spotify with those keywords, also for dogs (and cats, jointly our most favorite pets to live with us, human beings).
 
-I attempt (present tense at this stage...) to -first broadly- search, then self-assemble en -select, compare and (deep) analyse music (playlists and individual songs) on Spotify, specifically searching for similarities and/or differences in 'calming/relaxing music' for humans and for dogs.
+I attempt (present tense at this stage...) to -first broadly- search, then self-assemble and -select, compare and (deep) analyse music (playlists and individual songs) on Spotify, specifically searching for similarities and/or differences in 'calming/relaxing music' for humans and for dogs.
 
-The interest stems from my scientific curiosity into emotional and behavioural effects of music for humans and animals (dogs here!) alike. Not least because of our own pet Tess, a 3 year old Toller Retriever. Her well-being means the world to us and if we can understand the potential calming effects of sounds to dogs a bit better I   
+The interest stems from my scientific curiosity into emotional and behavioral effects of sounds (specifically **musical** sounds in this project) for humans and animals (dogs here!) alike. Not least because of our own pet Tess, a 3 year old Toller Retriever. Her well-being means the world to us and if we can understand the potential calming effects of sounds to dogs a bit better I hope this can assist furthering the broad animals well-being policies and guidelines.
 
- 
-### Introduction to analysis of music, aimed at relaxations
+------------------------------------------------------------------------
 
-#### For this project I have analysed playlists on Spotify which are named either 'calming' or 'relaxing' or 'relaxation' and group them (eventually after some further research) fourfold: 
-1. general playlist for humans, 
-2. general playlist for dogs
-3. specific playlist for humans, based upon research
-4. specific playlist for dogs, based upon research
+![](images/IMG-6162.jpg){width="300" height="250"}
 
-Which exact music elements are relevant for calming dogs may have been been applied. 
+------------------------------------------------------------------------
 
-The corpus has been made from songs on many playlists that exist for those groups. It is my working hypothesis that the first two groups are hardly different and that a high level of antropomorphism is applicable => what humans define and perceive as relaxing will be true for dogs also. Group 3 eand 4 require further analysis 
+### Introduction to analysis of music, aimed at 'relax(ation)' / 'calming'
 
-Potentially a third group, well defined on scientific research, may show significant differences on a variety of elements. It might also be that 'true' calming music for dogs is based on elements that disqualify for humans as true music (i.e. pitches in sounds at frequency levels unhearable for humans but hearable for dogs. 
+#### For this project I have analysed playlists on Spotify which are named either 'calming' or 'relaxing' or 'relaxation' and qualify & group them (eventually after some further research) fourfold:
 
-Re. the 3 group: see https://icalmpet.com/wp-content/uploads/BioAcoustic-Research-and-Development-Executive-Summary.pdf
+1.  general playlist for humans
+2.  general playlist for dogs
+3.  specific playlist for humans, based upon research
+4.  specific playlist for dogs, based upon research
 
-I based my third group , called "Through a Dogs Ear, science-based supposedly. upon this paper and the available public playlists in Spotify labeled "Through a Dogs Ear" (published by authors of this research).
+(all 4 are own-made playlists)
 
-***
+The overall corpus is made from songs on many playlists that exist for those groups. It is my working hypothesis that the first two groups are hardly different and that a high level of antropomorphism is applicable =\> what humans define and perceive as relaxing will be true for dogs also. Group 3 and 4 require further explanation (TBD)
 
-Research has been done into calming/relaxing effects of music, both for humans as for dogs. For the first group, humans, we know much more given a higher quality level of feedback. For dogs, research shows that similar aspects apply as for humans (tempo, loudness, pitch, instruments) but also differences (variety, genre, 'nature'sounds).
-At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
+Group 3 and 4, defined on certain scientific research, may show significant differences on a variety of elements. It might also be that 'true' calming music for dogs is based on elements that disqualify for humans as true music (i.e. pitches in sounds at frequency levels unhearable for humans but hearable for dogs. This is not in scope for this project, one reason being is that Spotify doesn;t contain (high-ptched) sounds that are non-perceivable for humans but that dogs CAN hear.
 
-***
+Re. the 4th group: see <https://icalmpet.com/wp-content/uploads/BioAcoustic-Research-and-Development-Executive-Summary.pdf>
+
+I based my fourth group , called "Through a Dogs Ear, science-based supposedly. upon this paper and the available public playlists in Spotify labeled"Through a Dogs Ear" (published by authors of this research).
+
+------------------------------------------------------------------------
+
+Research has been done into calming/relaxing effects of music, both for humans as for dogs. For the first group, humans, we know much more given a higher quality level of feedback by humans than by animals. For dogs, research shows that similar aspects apply as for humans (tempo, loudness, pitch, instruments) but also differences (variety, genre, 'nature'sounds). At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
+
+------------------------------------------------------------------------
 
 #### The playlists used in Spotify:
 
 #### [Spotify playlist humans]
 
-https://open.spotify.com/playlist/3B0FtfxNiFOo82o8lmJcIp?si=d6447cd190234b6a
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3B0FtfxNiFOo82o8lmJcIp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<https://open.spotify.com/playlist/3B0FtfxNiFOo82o8lmJcIp?si=d6447cd190234b6a>
 
 #### [Spotify playlist dogs]
 
-https://open.spotify.com/playlist/5hQo2asoxqQrnJFeufycj1?si=565ef05c6ff24ae0
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5hQo2asoxqQrnJFeufycj1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<https://open.spotify.com/playlist/5hQo2asoxqQrnJFeufycj1?si=565ef05c6ff24ae0>
 
 #### [Spotify playlist humans scientific]
 
-https://open.spotify.com/playlist/1t06IDDtn5eYo4Ow7Fwmcb?si=5d4a68e5d2334b34
+<https://open.spotify.com/playlist/1t06IDDtn5eYo4Ow7Fwmcb?si=5d4a68e5d2334b34>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1t06IDDtn5eYo4Ow7Fwmcb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1t06IDDtn5eYo4Ow7Fwmcb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+
+</iframe>
 
 #### [Spotify playlist dogs scientific]
 
-https://open.spotify.com/playlist/0km3mDUsP3LYDS1BZfqsY5?si=2775cd3b8a18422d
+<https://open.spotify.com/playlist/0km3mDUsP3LYDS1BZfqsY5?si=2775cd3b8a18422d>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0km3mDUsP3LYDS1BZfqsY5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0km3mDUsP3LYDS1BZfqsY5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+
+</iframe>
 
 ### A global analysis of 4 relaxation playlists: humans, dogs, 'sciencehumans' and sciencedogs'
 
-
-
 #### bla bla bla
 
-https://open.spotify.com/playlist/48fYbZUMrk5mJwhfj3xAi4?si=e4adb9f034634348
+<https://open.spotify.com/playlist/48fYbZUMrk5mJwhfj3xAi4?si=e4adb9f034634348>
 
- picture-in-picture"></iframe>
+picture-in-picture"\></iframe>
+
+![](Rplot06.png)
+
+N.B. the above was inserted only as example of testing inserting an image in my index.Rmd!!!
+
 
 ### Further (chroma) analysis into selected songs
 
-#### I selected the song "Totally beached" from the third group (Dogs, science-based) for a further analysis because it has a strong Regae 'vibe' to it and other research on the effect of music on calming dogs found that Regae music was preferred by dogs (reference to article) 
+#### I selected the song "Totally beached" from the third group (Dogs, science-based) for a further analysis because it has a strong Regae 'vibe' to it and other research on the effect of music on calming dogs found that Regae music was preferred by dogs (reference to article)
 
-#### I selected the song "Weightless" by Marconi Union based upon the following research:  https://www.britishacademyofsoundtherapy.com/wp-content/uploads/2019/10/Mindlab-Report-Weightless-Radox-Spa.pdf. This study 
+#### I selected the song "Weightless" by Marconi Union based upon the following research: <https://www.britishacademyofsoundtherapy.com/wp-content/uploads/2019/10/Mindlab-Report-Weightless-Radox-Spa.pdf>. This study
 
-#### either 'calming' or 'relaxing' or 'relaxation' and group them twofold or threefold: 1 group general and 1 group aimed at dogs. Possibly also a third group for dogs where scientific research (into which exactc music elements are relevant for calming dogs) may have been been applied. The corpus can be made from songs on many playlists that exist for those groups. It is my working hypothesis that the first two groups are hardly different and that a high level of antropomorphism is applicable => what humans define and perceive as relaxing will be true for dogs also. Potentially a third group, well defined on scientific research, may show significant differences on a variety of elements. It might also be that 'true' calming music for dogs is based on elements that disqualify for humans as true music (i.e. pitches in sounds at frequency levels unhearable for humans but hearable for dogs. 
-** Research has been done into calming/relaxing effects of music, both for humans as for dogs. For the first group, humans, we know much more given a higher quality level of feedback. For dogs, research shows that similar aspects apply as for humans (tempo, loudness, pitch, instruments) but also differences (variety, genre, 'nature'sounds).
-At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
+#### either 'calming' or 'relaxing' or 'relaxation' and group them twofold or threefold: 1 group general and 1 group aimed at dogs. Possibly also a third group for dogs where scientific research (into which exactc music elements are relevant for calming dogs) may have been been applied. The corpus can be made from songs on many playlists that exist for those groups. It is my working hypothesis that the first two groups are hardly different and that a high level of antropomorphism is applicable =\> what humans define and perceive as relaxing will be true for dogs also. Potentially a third group, well defined on scientific research, may show significant differences on a variety of elements. It might also be that 'true' calming music for dogs is based on elements that disqualify for humans as true music (i.e. pitches in sounds at frequency levels unhearable for humans but hearable for dogs.
 
-### next tab 
+\*\* Research has been done into calming/relaxing effects of music, both for humans as for dogs. For the first group, humans, we know much more given a higher quality level of feedback. For dogs, research shows that similar aspects apply as for humans (tempo, loudness, pitch, instruments) but also differences (variety, genre, 'nature'sounds). At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
+
+### next tab
 
 ### next next tab
