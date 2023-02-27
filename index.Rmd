@@ -26,7 +26,6 @@ A project in my third year of doing a Bachelors Study in Musicology at the Unive
 #### [Spotify playlist humans]
 
 
-
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO1RMsso?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 #### [Spotify playlist dogs]
@@ -60,7 +59,8 @@ I based my third group , called "Through a Dogs Ear, science-based supposedly. u
 ** Research has been done into calming/relaxing effects of music, both for humans as for dogs. For the first group, humans, we know much more given a higher quality level of feedback. For dogs, research shows that similar aspects apply as for humans (tempo, loudness, pitch, instruments) but also differences (variety, genre, 'nature'sounds).
 At this stage I haven't identified nor selected specific tracks for each of these 2 or 3 groups. I need to do more analysis of previous research into calming music for dogs to identify the musical elements that appear to be relevant.
 
-test
+***
+
 ### A global analysis of 4 relaxation playlists: humans, dogs, 'sciencehumans' and sciencedogs'
 
 
